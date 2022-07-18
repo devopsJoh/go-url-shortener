@@ -12,11 +12,11 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 
-	h "github.com/devopsJoh/go-url-shortener/api"
-	mr "github.com/devopsJoh/go-url-shortener/repository/mongo"
-	rr "github.com/devopsJoh/go-url-shortener/repository/redis"
+	h "github.com/tensor-programming/hex-microservice/api"
+	mr "github.com/tensor-programming/hex-microservice/repository/mongo"
+	rr "github.com/tensor-programming/hex-microservice/repository/redis"
 
-	"github.com/devopsJoh/go-url-shortener/shortener"
+	"github.com/tensor-programming/hex-microservice/shortener"
 )
 
 // https://www.google.com -> 98sj1-293

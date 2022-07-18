@@ -5,7 +5,7 @@ package json
 import (
 	"encoding/json"
 	"github.com/pkg/errors"
-	"github.com/devopsJoh/go-url-shortener/shortener"
+	"github.com/tensor-programming/hex-microservice/shortener"
 )
 
 type Redirect struct{}

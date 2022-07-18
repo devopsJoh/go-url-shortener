@@ -10,7 +10,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 
-	"github.com/devopsJoh/go-url-shortener/shortener"
+	"github.com/tensor-programming/hex-microservice/shortener"
 )
 
 type mongoRepository struct {
